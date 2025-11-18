@@ -1,5 +1,6 @@
 from collections import deque
 
+
 class Solution:
     def coinChange(self, coins, amount):
         def bfs(start, count):
@@ -20,16 +21,17 @@ class Solution:
                     next_amount = cur_amount + coin
                     if next_amount not in visited:
                         q.append([next_amount, count + 1])
-                        visited.add(next_amount)  
+                        visited.add(next_amount)
 
         return bfs(0, 0)
 
+
 if __name__ == '__main__':
     solution = Solution()
-    print(solution.coinChange([1,2,5], 11))
+    print(solution.coinChange([1, 2, 5], 11))
     print(solution.coinChange([2], 3))
     print(solution.coinChange([1], 0))
-    print(solution.coinChange([1,3,4], 6))
-    print(solution.coinChange([1,2147483647], 2))
-    print(solution.coinChange([384,324,196,481], 285))
+    print(solution.coinChange([1, 3, 4], 6))
+    print(solution.coinChange([1, 2147483647], 2))
+    print(solution.coinChange([384, 324, 196, 481], 285))
     print(solution.coinChange([5], 7))

@@ -13,9 +13,9 @@ class Solution(object):
                 if count == k:
                     result = ''.join(curr)
                     return True
-                
+
                 return False
-            
+
             for num in range(1, n + 1):
                 if num not in s:
                     curr.append(str(num))
@@ -23,18 +23,19 @@ class Solution(object):
 
                     if backtrack(curr):
                         return True
-                    
+
                     curr.pop()
                     s.remove(num)
 
             return False
-        
+
         backtrack([])
         return result
 
+
 if __name__ == '__main__':
     solution = Solution()
-    
+
     print(solution.getPermutation(3, 1))
     print(solution.getPermutation(3, 3))
     print(solution.getPermutation(3, 6))

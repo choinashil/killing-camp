@@ -20,14 +20,15 @@ class Solution:
 
         return water
 
+
 if __name__ == '__main__':
     solution = Solution()
-    print(solution.trap([2,0,2])) # 2
-    print(solution.trap([1,0,2])) # 1 
-    print(solution.trap([1,0,0,2])) # 2
-    print(solution.trap([1,0,0,2,3])) # 2 
-    print(solution.trap([2,0,1,2,3])) # 3
-    print(solution.trap([0,2,0,1,0,0,3])) # 7 
-    print(solution.trap([0,1,2,0,0,1,3])) # 5
-    print(solution.trap([0,1,0,2,1,0,1,3,2,1,2,1])) # 6
-    print(solution.trap([4,2,0,3,2,5])) # 9
+    print(solution.trap([2, 0, 2]))  # 2
+    print(solution.trap([1, 0, 2]))  # 1
+    print(solution.trap([1, 0, 0, 2]))  # 2
+    print(solution.trap([1, 0, 0, 2, 3]))  # 2
+    print(solution.trap([2, 0, 1, 2, 3]))  # 3
+    print(solution.trap([0, 2, 0, 1, 0, 0, 3]))  # 7
+    print(solution.trap([0, 1, 2, 0, 0, 1, 3]))  # 5
+    print(solution.trap([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]))  # 6
+    print(solution.trap([4, 2, 0, 3, 2, 5]))  # 9

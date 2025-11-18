@@ -15,7 +15,8 @@ def solution(k, dungeons):
     backtrack(k, 0)
     return answer
 
-print(solution(80, [[80,20],[50,40],[30,10]]))
-print(solution(80, [[50,40],[30,10],[80,20]]))
-print(solution(80, [[30,10],[50,40],[80,20]]))
-print(solution(80, [[100,20],[120,40],[150,10]]))
+
+print(solution(80, [[80, 20], [50, 40], [30, 10]]))
+print(solution(80, [[50, 40], [30, 10], [80, 20]]))
+print(solution(80, [[30, 10], [50, 40], [80, 20]]))
+print(solution(80, [[100, 20], [120, 40], [150, 10]]))

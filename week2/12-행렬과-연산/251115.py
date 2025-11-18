@@ -1,6 +1,7 @@
-from collections import deque 
+from collections import deque
 
-def solution(grid, operations):  
+
+def solution(grid, operations):
     row_len = len(grid)
     col_len = len(grid[0])
 
@@ -25,7 +26,6 @@ def solution(grid, operations):
         left_col.append(temp)
         return left_col, right_col, rows
 
-
     for op in operations:
         if op == 'ShiftRow':
             left_col, right_col, rows = shift_row(left_col, right_col, rows)
@@ -40,8 +40,9 @@ def solution(grid, operations):
 
         for c in range(len(rows[0])):
             answer[r][c + 1] = rows[r][c]
-    
+
     return answer
+
 
 print(solution([[1, 2, 3], [4, 5, 6], [7, 8, 9]], ["ShiftRow", "Rotate"]))
 print(solution([[1, 2, 3], [4, 5, 6], [7, 8, 9]], ["Rotate", "ShiftRow"]))

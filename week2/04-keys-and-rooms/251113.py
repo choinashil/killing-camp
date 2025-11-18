@@ -1,5 +1,6 @@
 from collections import deque
 
+
 class Solution:
     def canVisitAllRooms(self, rooms):
         q = deque()
@@ -17,10 +18,11 @@ class Solution:
                     if not visited[key]:
                         q.append(key)
                         visited[key] = True
-        
+
         bfs(0)
 
         return all(visited)
+
 
 if __name__ == '__main__':
     solution = Solution()

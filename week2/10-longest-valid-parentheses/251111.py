@@ -11,7 +11,7 @@ class Solution:
                     index = stack.pop()
                     score[index] = 1
                     score[i] = 1
-        
+
         answer, temp = 0, 0
 
         for s in score:
@@ -22,6 +22,7 @@ class Solution:
                 temp = 0
 
         return max(answer, temp)
+
 
 if __name__ == '__main__':
     solution = Solution()

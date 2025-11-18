@@ -1,5 +1,5 @@
 class Solution:
-    def isValid(self, s: str) -> bool:      
+    def isValid(self, s: str) -> bool:
         bracket_dict = {
             '(': ')',
             '{': '}',
@@ -20,6 +20,7 @@ class Solution:
                     return False
 
         return False if stack else True
+
 
 if __name__ == '__main__':
     solution = Solution()
