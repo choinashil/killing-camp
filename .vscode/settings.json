@@ -10,5 +10,10 @@
         "--max-line-length=120",
         "--indent-size=4",
         "--ignore=E501"
+    ],
+    "cSpell.words": [
+        "appendleft",
+        "indegree",
+        "popleft"
     ]
 }
