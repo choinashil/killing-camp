@@ -1,0 +1,6 @@
+def solution(m, k):
+def solution(n, cars, links):
+def solution(blocks):
+def solution(n,edges):
+def solution(n, escalator):
+def solution(n, k, capitals, edges):
