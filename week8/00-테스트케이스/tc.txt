@@ -1,0 +1,6 @@
+def solution(gift_cards, wants):
+def solution(needs, r):
+def solution(n, passenger, train):
+def solution(n):
+def solution(n):
+def solution(cook_times, order, k):

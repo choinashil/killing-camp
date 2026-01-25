@@ -1,0 +1,120 @@
+testcase 1
+n=1
+result=2
+
+testcase 2
+n=2
+result=6
+
+testcase 3
+n=3
+result=12
+
+testcase 4
+n=4
+result=20
+
+testcase 5
+n=5
+result=24
+
+testcase 6
+n=6
+result=30
+
+testcase 7
+n=7
+result=42
+
+testcase 8
+n=8
+result=56
+
+testcase 9
+n=9
+result=60
+
+testcase 10
+n=10
+result=72
+
+testcase 11
+n=15
+result=156
+
+testcase 12
+n=30
+result=600
+
+testcase 13
+n=50
+result=1640
+
+testcase 14
+n=80
+result=4032
+
+testcase 15
+n=100
+result=6320
+
+testcase 16
+n=200
+result=26082
+
+testcase 17
+n=300
+result=60270
+
+testcase 18
+n=500
+result=176820
+
+testcase 19
+n=800
+result=474474
+
+testcase 20
+n=1000
+result=754292
+
+testcase 21
+n=2000
+result=3205890
+
+testcase 22
+n=3500
+result=10204830
+
+testcase 23
+n=5000
+result=21302840
+
+testcase 24
+n=7500
+result=49027530
+
+testcase 25
+n=10000
+result=88369400
+
+testcase 26
+n=20000
+result=363531422
+
+testcase 27
+n=30000
+result=828892890
+
+testcase 28
+n=50000
+result=2335547256
+
+testcase 29
+n=80000
+result=6043740822
+
+testcase 30
+n=100000
+result=9486467802
+
